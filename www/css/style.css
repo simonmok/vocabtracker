@@ -1,0 +1,15 @@
+button.create-icon {
+  margin-right: 6px;
+}
+
+a.word-description {
+  text-decoration: none;
+}
+
+i.meaning-type {
+  font-style: italic;
+}
+
+.create-modal {
+  max-height: 270px;
+}

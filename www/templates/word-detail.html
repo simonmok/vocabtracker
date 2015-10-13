@@ -1,0 +1,43 @@
+<ion-view view-title="{{word.name}}">
+  <ion-content class="padding">
+	<div class="list card">
+      <div class="item item-divider">Meaning</div>
+      <div class="item item-body">
+	    <ul>
+          <li ng-repeat="item in word.meaning">
+            <i class="meaning-type">({{item.type}}.)</i> {{item.desc}}
+          </li>
+		</ul>
+      </div>
+    </div>
+	
+	<div class="list card" ng-hide="{{word.examples.length == undefined}}">
+      <div class="item item-divider">Examples</div>
+      <div class="item item-body">
+	    <ul>
+          <li ng-repeat="item in word.examples">
+            {{item}}
+          </li>
+		</ul>
+      </div>
+    </div>
+	
+	<div class="list card">
+      <div class="item item-divider">Status</div>
+      <div class="item item-body">
+	    <ul>
+          <li ng-show="{{word.complete}}">
+		    Learning completed
+          </li>
+		  <li ng-hide="{{word.complete}}">
+		    Learning not completed
+          </li>
+		</ul>
+      </div>
+    </div>
+	
+	<button class="button button-full button-positive" ng-hide="{{word.complete}}">Mark as Completed</button>
+	<button class="button button-full button-assertive" ng-click="deleteWord(word.name)">Delete Word</button>
+	
+  </ion-content>
+</ion-view>

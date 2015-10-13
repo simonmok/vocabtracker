@@ -1,0 +1,46 @@
+<ion-view view-title="Vocab Tracker">
+	<ion-nav-buttons side="right">
+		<button class="create-icon button" onclick="console.log('Open dialog')" ng-click="modal.show()">Create</button>
+		<!-- Dialog example http://codepen.io/ionic/pen/gblny -->
+	</ion-nav-buttons>
+
+  <ion-content class="padding">
+    <div class="list card" ng-repeat="word in dictionary">
+      <div class="item item-divider">{{word.name}}</div>
+	  <a href="#/tab/vocab/{{word.id}}" class="word-description">
+        <div class="item item-body item-icon-right">
+          <div>
+            <i class="meaning-type">({{word.meaning[0].type}}.)</i> {{word.meaning[0].desc}}
+          </div>
+		  <i class="icon ion-chevron-right icon-accessory"></i>
+        </div>
+	  </a>
+    </div>
+  </ion-content>
+  
+  <script id="templates/modal.html" type="text/ng-template">
+    <ion-modal-view class="create-modal">
+      <ion-header-bar class="bar bar-header bar-stable">
+        <h1 class="title">New Word</h1>
+        <button class="button button-clear button-primary ion-close-round" ng-click="modal.hide()"></button>
+      </ion-header-bar>
+      <ion-content class="padding">
+        <div class="list">
+          <label class="item item-input">
+            <input ng-model="newWord.text" type="text" placeholder="Word">
+          </label>
+          <label class="item item-input">
+            <input ng-model="newWord.meaning" type="text" placeholder="Meaning">
+          </label>
+          <label class="item item-input">
+            <input ng-model="newWord.examples" type="text" placeholder="Examples">
+          </label>
+        </div>
+		<div>
+		  <button class="button button-full button-positive" ng-click="addWord(newWord)">Add New Word</button>
+		</div>
+      </ion-content>
+    </ion-modal-view>
+  </script>
+  
+</ion-view>
