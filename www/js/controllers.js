@@ -1,7 +1,49 @@
 angular.module('starter.controllers', [])
 
-.controller('VocabCtrl', function($scope, $ionicModal, words) {
+.controller('VocabCtrl', function($scope, $ionicModal, words, $ionicPopup, Dictionary) {
   $scope.dictionary = words;
+  $scope.newWord = {};
+  $scope.addWord = function(word) {
+	if (word.text === undefined || word.text.length === 0) {
+	  $ionicPopup.alert({
+		title: 'Add Word',
+		template: 'Please fill in the word.'
+	  });
+	  return;
+	}
+	
+	if (word.type === undefined || word.type.length === 0) {
+	  $ionicPopup.alert({
+		title: 'Add Word',
+		template: 'Please fill in word type (e.g. adj).'
+	  });
+	  return;
+	}
+
+	if (word.meaning === undefined || word.meaning.length === 0) {
+	  $ionicPopup.alert({
+		title: 'Add Word',
+		template: 'Please fill in meaning.'
+	  });
+	  return;
+	}
+
+	if (Dictionary.search(word.text)) {
+	  $ionicPopup.alert({
+		title: 'Add Word',
+		template: 'The word "' + word.text + '" already exists.'
+	  });
+	  return;
+	}
+
+	Dictionary.addWord(word);
+	$scope.newWord = {};
+	$scope.modal.hide();
+	$ionicPopup.alert({
+	  title: 'Word added',
+	  template: 'The word "' + word.text + '" is added.'
+	});
+  };
   $ionicModal.fromTemplateUrl('templates/modal.html', {
     scope: $scope
   }).then(function(modal) {

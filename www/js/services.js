@@ -2,82 +2,60 @@ angular.module('starter.services', [])
 
 .factory('Dictionary', function($q, $http) {
 
-  var dictionary = [{
-    "id": 1,
-    "name": "extemporaneous",
-    "meaning": [{
-	  "type": "adj",
-	  "desc": "即興的﹐無準備的"
-	}],
-	"complete": false
-  }, {
-    "id": 2,
-    "name": "blatant",
-	"meaning": [{
-	  "type": "adj",
-	  "desc": "明顯的, 露骨的, 公然的"
-	}, {
-	  "type": "adj",
-	  "desc": "喧鬧的"
-	}],
-	"complete": false
-  }, {
-    "id": 3,
-    "name": "detrimental",
-    "meaning": [{
-	  "type": "adj",
-	  "desc": "有害的"
-	}],
-	"complete": true
-  }, {
-    "id": 4,
-    "name": "obviate",
-    "meaning": [{
-	  "type": "vt",
-	  "desc": "取消, 排除, 避免"
-	}],
-	"complete": false
-  }, {
-    "id": 5,
-    "name": "poignant",
-    "meaning": [{
-	  "type": "adj",
-	  "desc": "辛酸的, 慘痛的"
-	}],
-	"examples": [
-	  "poignant memories of an unhappy childhood"
-	],
-	"complete": false
-  }, {
-    "id": 6,
-    "name": "brazen",
-    "meaning": [{
-	  "type": "adj",
-	  "desc": "無恥的, 厚臉皮的"
-	}],
-	"examples": [
-	  "I saw the boy stealing money; but he is so brazen that he tried to say that I had stolen it.",
-	  "How can you believe such a brazen lie? 你怎能相信如此厚顏無恥的謊言?"
-	],
-	"complete": false
-  }];
+  var dictionary;
 
   return {
 
     all: function() {
-		// TODO: External URL does not work in Android
-		
-		/*var deferred = $q.defer();
-		$http.get('/data/dictionary.json').then(function(response) {
+    	if (dictionary !== undefined) {
+    		return dictionary;
+    	}
+		var deferred = $q.defer();
+		$http.get('data/dictionary.json').then(function(response) {
 			dictionary = response.data;
 			deferred.resolve(dictionary);
         });
-		return deferred.promise;*/
-		return dictionary;
+		return deferred.promise;
+    },
+    
+    search: function(word) {
+    	for (var i = 0; i < dictionary.length; i++) {
+			if (dictionary[i].name === word) {
+				return i;
+			}
+		}
+    	return null;
+    },
+    
+    addWord: function(word) {
+    	var id = dictionary.length === 0 ? 1 : dictionary[dictionary.length - 1].id + 1;
+    	var object = {
+		    "id": id,
+		    "name": word.text,
+		    "meaning": [{
+			  "type": word.type,
+			  "desc": word.meaning
+			}],
+			"complete": false
+		  };
+    	if (word.examples !== undefined && word.examples.length > 0) {
+    		object.examples = [ word.examples ]
+    	}
+    	dictionary.push(object);
     },
 
     remove: function(word) {
-		// Delete from json
+		var position = this.search(word);
+    	if (position != null) {
+    		dictionary.splice(position, 1);
+    	}
+//		$cordovaFile.writeFile(cordova.file.dataDirectory, "dictionary.json", JSON.stringify(json), true).then(function(success) {
+//				console.log('Success creating');
+//			}, function(error) {
+//				// error
+//				console.log(error); // error mappings are listed in the
+//									// documentation
+//			});
     },
 
 	length: function() {

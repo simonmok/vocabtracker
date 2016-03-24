@@ -5,7 +5,7 @@
 	</ion-nav-buttons>
 
   <ion-content class="padding">
-    <div class="list card" ng-repeat="word in dictionary">
+    <div class="list card" ng-repeat="word in dictionary | orderBy: 'name'">
       <div class="item item-divider">{{word.name}}</div>
 	  <a href="#/tab/vocab/{{word.id}}" class="word-description">
         <div class="item item-body item-icon-right">
@@ -25,15 +25,18 @@
         <button class="button button-clear button-primary ion-close-round" ng-click="modal.hide()"></button>
       </ion-header-bar>
       <ion-content class="padding">
-        <div class="list">
+         <div class="list">
           <label class="item item-input">
-            <input ng-model="newWord.text" type="text" placeholder="Word">
+            <input ng-model="newWord.text" type="text" placeholder="Word"/>
           </label>
           <label class="item item-input">
-            <input ng-model="newWord.meaning" type="text" placeholder="Meaning">
+            <input ng-model="newWord.type" type="text" placeholder="Type"/>
           </label>
           <label class="item item-input">
-            <input ng-model="newWord.examples" type="text" placeholder="Examples">
+            <input ng-model="newWord.meaning" type="text" placeholder="Meaning"/>
+          </label>
+          <label class="item item-input">
+            <input ng-model="newWord.examples" type="text" placeholder="Examples"/>
           </label>
         </div>
 		<div>

@@ -16,6 +16,9 @@
 	  "type": "adj",
 	  "desc": "喧鬧的"
 	}],
+	"examples": [
+	  "be blatant about ...   對…毫不忌諱"
+	],
 	"complete": false
   }, {
     "id": 3,
@@ -46,6 +49,999 @@
 	"complete": false
   }, {
     "id": 6,
+    "name": "whopper",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "謊話"
+	}],
+	"complete": false
+  }, {
+    "id": 7,
+    "name": "infelicity",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "不幸"
+	}],
+	"complete": false
+  }, {
+    "id": 8,
+    "name": "inconsequential",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "無關緊要的"
+	}],
+	"complete": false
+  }, {
+    "id": 9,
+    "name": "contentious",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "有爭議的"
+	}],
+	"complete": false
+  }, {
+    "id": 10,
+    "name": "culprit",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "犯錯的人"
+	}],
+	"complete": false
+  }, {
+    "id": 11,
+    "name": "chitchat",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "聊天"
+	}],
+	"complete": false
+  }, {
+    "id": 12,
+    "name": "mundane",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "平凡的, 乏味的"
+	}],
+	"complete": false
+  }, {
+    "id": 13,
+    "name": "impasse",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "僵局"
+	}],
+	"complete": false
+  }, {
+    "id": 14,
+    "name": "acumen",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "精明"
+	}],
+	"examples": [
+	  "business acumen 生意上的精明果斷"
+	],
+	"complete": false
+  }, {
+    "id": 15,
+    "name": "resilient",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "適應能力強的, 有彈性的"
+	}],
+	"complete": false
+  }, {
+    "id": 16,
+    "name": "confiscate",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "沒收"
+	}],
+	"complete": false
+  }, {
+    "id": 17,
+    "name": "verge",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "邊沿, 界限"
+	}],
+	"complete": false
+  }, {
+    "id": 18,
+    "name": "apprentice",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "學徒"
+	}],
+	"complete": false
+  }, {
+    "id": 19,
+    "name": "dither over",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "猶豫不決"
+	}],
+	"complete": false
+  }, {
+    "id": 20,
+    "name": "overhaul",
+    "meaning": [{
+	  "type": "vt/n",
+	  "desc": "徹底檢修, 全面修訂"
+	}],
+	"complete": false
+  }, {
+    "id": 21,
+    "name": "abate",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "減輕, 減少"
+	}],
+	"complete": false
+  }, {
+    "id": 22,
+    "name": "delineate",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "勾畫出…的輪廓"
+	}],
+	"complete": false
+  }, {
+    "id": 23,
+    "name": "perch",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "棲息"
+	}, {
+	  "type": "n",
+	  "desc": "棲息處"
+	}],
+	"complete": false
+  }, {
+    "id": 24,
+    "name": "chatter",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "喋喋不休"
+	}],
+	"complete": false
+  }, {
+    "id": 25,
+    "name": "renege",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "食言, 違約"
+	}],
+	"complete": false
+  }, {
+    "id": 26,
+    "name": "monstrous",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "龐大的"
+	}],
+	"complete": false
+  }, {
+    "id": 27,
+    "name": "grumpy",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "脾氣壞的"
+	}],
+	"complete": false
+  }, {
+    "id": 28,
+    "name": "complacent",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "滿足的, 自滿的, 安於現狀的"
+	}],
+	"complete": false
+  }, {
+    "id": 29,
+    "name": "concede",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "承認"
+	}],
+	"complete": false
+  }, {
+    "id": 30,
+    "name": "perplexing",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "使人困惑的"
+	}],
+	"complete": false
+  }, {
+    "id": 31,
+    "name": "scant",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "少量的"
+	}],
+	"examples": [
+	  "to pay scant attention to something"
+	],
+	"complete": false
+  }, {
+    "id": 32,
+    "name": "trauma",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "痛苦經歷, 精神創傷"
+	}],
+	"complete": false
+  }, {
+    "id": 33,
+    "name": "repression",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "壓制, 壓抑"
+	}],
+	"complete": false
+  }, {
+    "id": 34,
+    "name": "trifle",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "瑣事, 小問題"
+	}],
+	"complete": false
+  }, {
+    "id": 35,
+    "name": "fetish",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "迷戀"
+	}],
+	"examples": [
+	  "to have a fetish about something. 對某物痴迷"
+	],
+	"complete": false
+  }, {
+    "id": 36,
+    "name": "menace",
+    "meaning": [{
+	  "type": "vi/n",
+	  "desc": "威脅, 恐嚇"
+	}],
+	"examples": [
+	  "a sense of menace in his voice"
+	],
+	"complete": false
+  }, {
+    "id": 37,
+    "name": "coerce",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "脅迫"
+	}],
+	"examples": [
+	  "to coerce somebody into doing something"
+	],
+	"complete": false
+  }, {
+    "id": 38,
+    "name": "wane",
+    "meaning": [{
+	  "type": "vi/n",
+	  "desc": "衰落"
+	}],
+	"examples": [
+	  "The light was beginning to wane."
+	],
+	"complete": false
+  }, {
+    "id": 39,
+    "name": "sequel",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "續集"
+	}],
+	"complete": false
+  }, {
+    "id": 40,
+    "name": "in lieu of",
+    "meaning": [{
+	  "type": "phrase",
+	  "desc": "替代"
+	}],
+	"complete": false
+  }, {
+    "id": 41,
+    "name": "squabble",
+    "meaning": [{
+	  "type": "vi/n",
+	  "desc": "爭吵"
+	}],
+	"examples": [
+	  "a family squabble",
+	  "squabble over something"
+	],
+	"complete": false
+  }, {
+    "id": 42,
+    "name": "ebb",
+    "meaning": [{
+	  "type": "vi/n",
+	  "desc": "衰退"
+	}],
+	"examples": [
+	  "at a low ebb 處於低潮",
+	  "The tide is on the ebb."
+	],
+	"complete": false
+  }, {
+    "id": 43,
+    "name": "unfettered",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "不受控制的, 不受約束的"
+	}],
+	"complete": false
+  }, {
+    "id": 44,
+    "name": "luster",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "光彩"
+	}],
+	"complete": false
+  }, {
+    "id": 45,
+    "name": "affront",
+    "meaning": [{
+	  "type": "vi/n",
+	  "desc": "侮辱"
+	}],
+	"complete": false
+  }, {
+    "id": 46,
+    "name": "savant",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "智者, 專家"
+	}],
+	"complete": false
+  }, {
+    "id": 47,
+    "name": "demise",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "死亡, 終止, 失敗"
+	}],
+	"complete": false
+  }, {
+    "id": 48,
+    "name": "cling to",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "忠實於, 緊握不放, 堅持"
+	}],
+	"examples": [
+	  "She clings to people for support. 她貼近人民以贏得支持"
+	],
+	"complete": false
+  }, {
+    "id": 49,
+    "name": "tweak",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "扭, 擰, 對…作微調, 略微改動"
+	}],
+	"examples": [
+	  "to give something some tweak"
+	],
+	"complete": false
+  }, {
+    "id": 50,
+    "name": "shrewd",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "精明的"
+	}],
+	"examples": [
+	  "a shrewd move"
+	],
+	"complete": false
+  }, {
+    "id": 51,
+    "name": "pronounced",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "明顯的, 顯著的"
+	}],
+	"complete": false
+  }, {
+    "id": 52,
+    "name": "lucrative",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "賺大錢的"
+	}],
+	"complete": false
+  }, {
+    "id": 53,
+    "name": "squint",
+    "meaning": [{
+	  "type": "vi/n",
+	  "desc": "瞇著眼看, 斜視"
+	}],
+	"complete": false
+  }, {
+    "id": 54,
+    "name": "meager",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "不足的, 貧乏的"
+	}],
+	"complete": false
+  }, {
+    "id": 55,
+    "name": "dire",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "急迫的, 極度的"
+	}],
+	"examples": [
+	  "in a dire need of something"
+	],
+	"complete": false
+  }, {
+    "id": 56,
+    "name": "dearth",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "缺乏"
+	}],
+	"examples": [
+	  "a dearth of something"
+	],
+	"complete": false
+  }, {
+    "id": 57,
+    "name": "paucity",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "不足"
+	}],
+	"examples": [
+	  "a paucity of water"
+	],
+	"complete": false
+  }, {
+    "id": 58,
+    "name": "ubiquitous",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "到處存在的，普遍存在的"
+	}],
+	"complete": false
+  }, {
+    "id": 59,
+    "name": "downplay",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "貶低, 低估"
+	}],
+	"complete": false
+  }, {
+    "id": 60,
+    "name": "preponderance",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "優勢"
+	}],
+	"complete": false
+  }, {
+    "id": 61,
+    "name": "myriad",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "無數"
+	}, {
+	  "type": "adj",
+	  "desc": "無數的"
+	}],
+	"examples": [
+	  "a myriad of choices"
+	],
+	"complete": false
+  }, {
+    "id": 62,
+    "name": "at stake",
+    "meaning": [{
+	  "type": "phrase",
+	  "desc": "at risk, in question"
+	}],
+	"examples": [
+	  "This decision puts our lives at stake. 這麼一決定, 我們的生命就吉兇難卜了。",
+	  "Our children's education is at stake. 我們孩子的教育好壞無法預料。"
+	],
+	"complete": false
+  }, {
+    "id": 63,
+    "name": "exactitude",
+    "meaning": [{
+	  "type": "phrase",
+	  "desc": "精確性"
+	}],
+	"complete": false
+  }, {
+    "id": 64,
+    "name": "fetter",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "束縛"
+	}],
+	"complete": false
+  }, {
+    "id": 65,
+    "name": "humility",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "謙遜"
+	}],
+	"complete": false
+  }, {
+    "id": 66,
+    "name": "epitome",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "典型"
+	}],
+	"complete": false
+  }, {
+    "id": 67,
+    "name": "nostalgia",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "懷舊"
+	}],
+	"examples": [
+	  "nostalgia for something 對某事物的懷念"
+	],
+	"complete": false
+  }, {
+    "id": 68,
+    "name": "glitch",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "（設備、機器等的）小故障，失靈，技術性的小毛病"
+	}],
+	"complete": false
+  }, {
+    "id": 69,
+    "name": "spooky",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "陰森可怕的, 令人毛骨悚然的"
+	}],
+	"complete": false
+  }, {
+    "id": 70,
+    "name": "smack",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "猛拍, 猛擊"
+	}],
+	"complete": false
+  }, {
+    "id": 71,
+    "name": "squash",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "鎮壓, 粉碎"
+	}],
+	"complete": false
+  }, {
+    "id": 72,
+    "name": "squash",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "鎮壓, 粉碎"
+	}],
+	"complete": false
+  }, {
+    "id": 73,
+    "name": "clutter",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "雜亂"
+	}],
+	"examples": [
+	  "a room full of clutter 堆滿雜物的房間",
+	  "in a clutter 亂七八糟的"
+	],
+	"complete": false
+  }, {
+    "id": 74,
+    "name": "thrust",
+    "meaning": [{
+	  "type": "vi/n",
+	  "desc": "推力, 動力"
+	}],
+	"examples": [
+	  "engine thrust 發動機的推力",
+	  "a new thrust in business development 商業發展的新動力"
+	],
+	"complete": false
+  }, {
+    "id": 75,
+    "name": "shove",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "猛推, 塞進"
+	}],
+	"examples": [
+	  "He shoved him down the stairs. 他把他推下了樓梯",
+	  "She shoved the clothes back in the drawer. 她將衣服塞回了抽屜裡"
+	],
+	"complete": false
+  }, {
+    "id": 76,
+    "name": "captivating",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "迷人的, 動人的, 可愛的"
+	}],
+	"complete": false
+  }, {
+    "id": 77,
+    "name": "floppy",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "鬆軟的"
+	}],
+	"complete": false
+  }, {
+    "id": 78,
+    "name": "mime",
+    "meaning": [{
+	  "type": "vi/n",
+	  "desc": "做模擬動作"
+	}],
+	"complete": false
+  }, {
+    "id": 79,
+    "name": "anatomical",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "解剖學的"
+	}],
+	"complete": false
+  }, {
+    "id": 81,
+    "name": "barrage",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "一連串"
+	}],
+	"examples": [
+	  "a barrage of questions"
+	],
+	"complete": false
+  }, {
+    "id": 82,
+    "name": "infatuation",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "痴迷"
+	}],
+	"complete": false
+  }, {
+    "id": 83,
+    "name": "infuriated",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "使大怒"
+	}],
+	"complete": false
+  }, {
+    "id": 84,
+    "name": "bigot",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "偏執的人, 頑固者"
+	}],
+	"complete": false
+  }, {
+    "id": 85,
+    "name": "panoramic",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "全景的"
+	}],
+	"complete": false
+  }, {
+    "id": 86,
+    "name": "unanimous",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "意見一致的"
+	}],
+	"complete": false
+  }, {
+    "id": 87,
+    "name": "boilerplate",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "照本宣科的規範, 一成不變的陳腐文字"
+	}],
+	"complete": false
+  }, {
+    "id": 88,
+    "name": "purview",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "〔工作﹑活動﹑知識等的〕 範圍, 權限"
+	}],
+	"examples": [
+	  "to be within/outside the purview of something. 在某事的範圍內／外"
+	],
+	"complete": false
+  }, {
+    "id": 89,
+    "name": "drudgery",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "苦工﹐賤役﹐辛苦乏味的工作"
+	}],
+	"complete": false
+  }, {
+    "id": 90,
+    "name": "trump",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "勝過, 打敗"
+	}],
+	"examples": [
+	  "The last bidder's offer trumped that of all the others."
+	],
+	"complete": false
+  }, {
+    "id": 91,
+    "name": "ecstatic",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "狂喜的, 著迷的"
+	}],
+	"complete": false
+  }, {
+    "id": 92,
+    "name": "memoir",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "回憶錄"
+	}],
+	"complete": false
+  }, {
+    "id": 93,
+    "name": "extermination",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "根除, 滅絕"
+	}],
+	"complete": false
+  }, {
+    "id": 94,
+    "name": "hitch",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "暫時問題"
+	}],
+	"examples": [
+	  "technical hitch"
+	],
+	"complete": false
+  }, {
+    "id": 95,
+    "name": "slender",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "修長的, 苗條的"
+	}],
+	"complete": false
+  }, {
+    "id": 96,
+    "name": "scoop",
+    "meaning": [{
+	  "type": "vt/n",
+	  "desc": "獨家新聞, 最新內幕消息"
+	}],
+	"complete": false
+  }, {
+    "id": 97,
+    "name": "stunt",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "引人注目的花招"
+	}],
+	"complete": false
+  }, {
+    "id": 98,
+    "name": "amiss",
+    "meaning": [{
+	  "type": "adj/adv",
+	  "desc": "出差錯的, 錯誤地"
+	}],
+	"complete": false
+  }, {
+    "id": 99,
+    "name": "turnstile",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "Gate that enforces one-way traffic of people"
+	}],
+	"complete": false
+  }, {
+    "id": 100,
+    "name": "smatter",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "略知, 淺知"
+	}],
+	"complete": false
+  }, {
+    "id": 101,
+    "name": "cult",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "狂熱"
+	}],
+	"complete": false
+  }, {
+    "id": 102,
+    "name": "retrospect",
+    "meaning": [{
+	  "type": "vt/n",
+	  "desc": "回顧, 回想, 追溯"
+	}],
+	"complete": false
+  }, {
+    "id": 103,
+    "name": "unruly",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "任性的"
+	}],
+	"complete": false
+  }, {
+    "id": 104,
+    "name": "stench",
+    "meaning": [{
+	  "type": "vt/n",
+	  "desc": "散發惡臭, 惡臭"
+	}],
+	"complete": false
+  }, {
+    "id": 105,
+    "name": "loath",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "不願意, 不喜歡"
+	}],
+	"examples": [
+	  "to be loath to do something 不情願做某事"
+	],
+	"complete": false
+  }, {
+    "id": 106,
+    "name": "incessant",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "不停的, 連續的"
+	}],
+	"complete": false
+  }, {
+    "id": 106,
+    "name": "gibberish",
+    "meaning": [{
+	  "type": "n",
+	  "desc": "胡言亂語, 無意義的聲音"
+	}],
+	"complete": false
+  }, {
+    "id": 107,
+    "name": "giddy",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "暈眩的, 眼花的"
+	}],
+	"complete": false
+  }, {
+    "id": 108,
+    "name": "lackadaisical",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "懶散的, 無精打采的"
+	}],
+	"complete": false
+  }, {
+    "id": 109,
+    "name": "mesmerize",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "對...施催眠術, 迷惑"
+	}],
+	"complete": false
+  }, {
+    "id": 110,
+    "name": "allay",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "緩和, 減輕"
+	}],
+	"examples": [
+	  "allay her pains/fears"
+	],
+	"complete": false
+  }, {
+    "id": 111,
+    "name": "exuberant",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "豐富的, 繁茂的, 生氣勃勃的"
+	}],
+	"complete": false
+  }, {
+    "id": 112,
+    "name": "waver",
+    "meaning": [{
+	  "type": "vi",
+	  "desc": "動搖, 猶豫不決"
+	}],
+	"examples": [
+	  "His determination seems to be wavering."
+	],
+	"complete": false
+  }, {
+    "id": 113,
+    "name": "telepathic",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "有心靈感應能力的"
+	}],
+	"examples": [
+	  "His determination seems to be wavering."
+	],
+	"complete": false
+  }, {
+    "id": 114,
+    "name": "steadfast",
+    "meaning": [{
+	  "type": "adj",
+	  "desc": "忠誠的"
+	}],
+	"examples": [
+	  "steadfast in Christianity"
+	],
+	"complete": false
+  }, {
+    "id": 115,
+    "name": "inundate",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "淹沒"
+	}],
+	"examples": [
+	  "inundated with information"
+	],
+	"complete": false
+  }, {
+    "id": 116,
+    "name": "ingratiate",
+    "meaning": [{
+	  "type": "vt",
+	  "desc": "討好"
+	}],
+	"examples": [
+	  "inundated with information"
+	],
+	"complete": false
+  }, {
+    "id": 117,
     "name": "brazen",
     "meaning": [{
 	  "type": "adj",
